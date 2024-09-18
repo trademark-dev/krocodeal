@@ -874,6 +874,15 @@ div#main_page_one {
     backdrop-filter: blur(2px);
 }
 
+.nav-pills .nav-link {
+    color: white !important;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: white !important;
+}
+
 .main_tabs_contents {
     height: 83vh !important;
     position: absolute;
@@ -1491,6 +1500,7 @@ p.sc-fqkvVR.cTsBPJ.sc-knuQbY.fUACrS.mb-0 {
 .nav_pils_second .nav-link.active {
     position: relative;
     background-color: rgb(223, 88, 48) !important;
+    color: white;
 }
 
 .nav_pils_second .nav-link.active::before {
