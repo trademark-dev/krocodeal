@@ -874,19 +874,6 @@ div#main_page_one {
     backdrop-filter: blur(2px);
 }
 
-.nav-pills .nav-link {
-    color: white !important;
-}
-
-.nav-link:focus,
-.nav-link:hover {
-    color: white !important;
-}
-
-.nav-link:hover {
-    color: white !important;
-}
-
 .main_tabs_contents {
     height: 83vh !important;
     position: absolute;
