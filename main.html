@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flipdown@0.3.2/dist/flipdown.css">
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-light.css">
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -28,7 +29,7 @@
 </style>
 
 <body>
-    <div id="main_pre_loader" class="pre-loader-wrape">
+    <!-- <div id="main_pre_loader" class="pre-loader-wrape">
         <img src="assets/images/preloader.webp" alt="loder-bg">
         <div id="splashss">
             <div class="loader">
@@ -51,7 +52,7 @@
 
             <div class="loader2"></div>
         </div>
-    </div>
+    </div> -->
 
 
 
@@ -63,7 +64,7 @@
                     <button class="nav-link navlink1 wertyuiuytr active" id="pills-main-tab" data-bs-toggle="pill" data-bs-target="#pills-main" type="button" role="tab" aria-controls="pills-home" aria-selected="true"> 
                     <a href="#">
                         <span class="icon">
-                            <ion-icon name="home-outline"></ion-icon>
+                            <i class="fa-regular fa-house"></i>
                         </span>
                         <span class="text">Home</span>
                         <span class="circle"></span>
@@ -136,388 +137,111 @@
                     <div class="swiper-pagination"></div>
                 </div>
 
-                <!-- all producrs -->
-                <div class="p_titlles" id="glass">Bidding Products</div>
+                <ul class="nav nav-pills mb-3 nav_pils_second" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active button_tabsalll" id="pills-unique-tab" data-bs-toggle="pill" data-bs-target="#pills-unique" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Unique Bidding</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link button_tabsalll" id="pills-productt-tab" data-bs-toggle="pill" data-bs-target="#pills-productt" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Bid To But</button>
+                    </li>
+                </ul>
+                <div class="tab-content wertyuioiuytrdfg" id="pills-tabContent">
 
-                <div class="row">
+                    <div class="tab-pane  fade show active" id="pills-unique" role="tabpanel " aria-labelledby="pills-home-tab " tabindex="0 ">
+                    </div>
+                    <div class="tab-pane  fade show" id="pills-productt" role="tabpanel " aria-labelledby="pills-home-tab " tabindex="0 ">
 
-                    <!-- cart -->
-                    <div class="col-6 col-md-4 p-0 px-1">
-                        <div class="wrape_products_al">
-                            <div class="producte_col_one">
-                                <div class="product_snap_image">
-                                    <img class="pro_Duct_im" src="assets/images/42037925.webp" alt="">
-                                    <div class="statuse_chek_cars">
-                                        <div class="statusP_par_car">
-                                            <p class="mb-0">PendinG</p>
-                                        </div>
-                                    </div>
-                                    <div class="hert_like">
-                                        <label class="ui-like">
-                                            <input type="checkbox">
-                                            <div class="like">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="">
-                                                    <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
-                                                    <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
-                                                    <g id="SVGRepo_iconCarrier">
-                                                        <path d="M20.808,11.079C19.829,16.132,12,20.5,12,20.5s-7.829-4.368-8.808-9.421C2.227,6.1,5.066,3.5,8,3.5a4.444,4.444,0,0,1,4,2,4.444,4.444,0,0,1,4-2C18.934,3.5,21.773,6.1,20.808,11.079Z"></path>
-                                                    </g>
-                                                </svg>
-                                               </div>
-                                          </label>
-                                    </div>
-                                </div>
-                                <div class="con_tent_product">
-                                    <h5 class="text-start">2014 Toyota Camry Hybrid H AVV50R CVT Sedan</h5>
-                                </div>
-                                <div class="container-fluid">
-                                    <div class="row" style="gap: 3px 0px;">
-                                        <div class="col-sm-12 col-md-6">
-                                            <div class="statts">
-                                                <div class="sc-BQMaI krSomn"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" width="18" class="sc-bvgPty fuDwzT"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 14A6 6 0 108 2a6 6 0 000 12zm-1.241-2.823L4.242 8.66a.387.387 0 010-.548l.548-.547a.387.387 0 01.547 0L7.032 9.26l3.63-3.63a.387.387 0 01.548 0l.548.547a.387.387 0 010 .547l-4.452 4.452a.387.387 0 01-.547 0z"></path></svg>
-                                                    <p class="sc-fqkvVR cTsBPJ sc-epqpcT cprtih mb-0">No Reserve</p>
+                        <!-- all producrs -->
+                        <div class="p_titlles" id="glass">Unique Bidding</div>
+
+                        <div class="row ">
+
+                            <!-- cart -->
+                            <div class="col-6 col-md-4 p-0 px-1">
+                                <div class="wrape_products_al">
+                                    <div class="producte_col_one">
+                                        <div class="product_snap_image">
+                                            <img class="pro_Duct_im" src="assets/images/42037925.webp" alt="">
+                                            <div class="statuse_chek_cars">
+                                                <div class="statusP_par_car">
+                                                    <p class="mb-0">Sold</p>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="col-sm-12 col-md-6 p-0">
-                                            <div class="statts text-center">
-                                                <p class="sc-fqkvVR cTsBPJ sc-knuQbY fUACrS mb-0">
-                                                    1h - 46m - 24s
-                                                </p>
+                                            <div class="hert_like">
+                                                <label class="ui-like">
+                                                <input type="checkbox">
+                                                <div class="like">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="">
+                                                        <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                                                        <g stroke-linejoin="round " stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+                                                        <g id="SVGRepo_iconCarrier">
+                                                            <path d="M20.808,11.079C19.829,16.132,12,20.5,12,20.5s-7.829-4.368-8.808-9.421C2.227,6.1,5.066,3.5,8,3.5a4.444,4.444,0,0,1,4,2,4.444,4.444,0,0,1,4-2C18.934,3.5,21.773,6.1,20.808,11.079Z "></path>
+                                                        </g>
+                                                    </svg>
+                                                   </div>
+                                              </label>
                                             </div>
                                         </div>
-                                        <div class="col-12 p-0">
-                                            <div class="price_div">
-                                                $23,400
+                                        <div class="con_tent_product">
+                                            <h5 class="text-start ">2014 Toyota Camry Hybrid H AVV50R CVT Sedan</h5>
+                                        </div>
+                                        <div class="container-fluid">
+                                            <div class="row" style="gap: 3px 0px;">
+
+                                                <div class="col-sm-12 col-md-6 p-0">
+                                                    <div class="statts text-center">
+                                                        <p class="sc-fqkvVR cTsBPJ sc-knuQbY fUACrS mb-0">
+                                                            1h - 46m - 24s
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 p-0">
+                                                    <div class="price_div">
+                                                        $23,400
+                                                    </div>
+                                                    <div class="col-12 p-0">
+                                                        <div class="uyghggfgf">
+                                                            <button class="placebit">
+                                                                    <i class="fa-sharp fa-solid fa-gavel"></i> Place bid
+                                                                </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
+
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
+
                         </div>
                     </div>
 
-                    <!-- cart -->
-                    <div class="col-6 col-md-4 p-0 px-1">
-                        <div class="wrape_products_al">
-                            <div class="producte_col_one">
-                                <div class="product_snap_image">
-                                    <img class="pro_Duct_im" src="assets/images/car2.webp" alt="">
-                                    <div class="statuse_chek_cars">
-                                        <div class="statusP_par_car">
-                                            <p style="font-size: 12px;" class="mb-0">Going Gone!</p>
-                                        </div>
-                                    </div>
-                                    <div class="hert_like">
-                                        <label class="ui-like">
-                                            <input type="checkbox">
-                                            <div class="like">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="">
-                                                    <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
-                                                    <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
-                                                    <g id="SVGRepo_iconCarrier">
-                                                        <path d="M20.808,11.079C19.829,16.132,12,20.5,12,20.5s-7.829-4.368-8.808-9.421C2.227,6.1,5.066,3.5,8,3.5a4.444,4.444,0,0,1,4,2,4.444,4.444,0,0,1,4-2C18.934,3.5,21.773,6.1,20.808,11.079Z"></path>
-                                                    </g>
-                                                </svg>
-                                               </div>
-                                          </label>
-                                    </div>
-                                </div>
-                                <div class="con_tent_product">
-                                    <h5 class="text-start">2009 Mercedes Benz C63 AMG W204 Automatic Sedan</h5>
-                                </div>
-                                <div class="container-fluid">
-                                    <div class="row" style="gap: 3px 0px;">
-                                        <div class="col-sm-12 col-md-6">
-                                            <div class="statts">
-                                                <div class="sc-BQMaI krSomn">
-                                                    <!-- <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" width="18" class="sc-bvgPty fuDwzT">
-                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8 14A6 6 0 108 2a6 6 0 000 12zm-1.241-2.823L4.242 8.66a.387.387 0 010-.548l.548-.547a.387.387 0 01.547 0L7.032 9.26l3.63-3.63a.387.387 0 01.548 0l.548.547a.387.387 0 010 .547l-4.452 4.452a.387.387 0 01-.547 0z"></path>
-                                                    </svg> -->
-                                                    <svg style="fill: rgb(239, 112, 5);" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="21" class="sc-cyRcrZ fozazD"><path fill-rule="evenodd" d="M14 8c0 3.315-2.685 6-6 6s-6-2.685-6-6 2.685-6 6-6 6 2.685 6 6zm-8.61.58c.044.066.22.094.277.085h4.666c.056.01.233-.019.276-.085a.353.353 0 00.056-.226v-.708a.353.353 0 00-.056-.226c-.043-.066-.22-.094-.276-.085H5.667c-.056-.01-.233.019-.276.085a.352.352 0 00-.056.226v.708a.352.352 0 00.056.226z" clip-rule="evenodd"></path></svg>
-                                                    <p class="sc-fqkvVR cTsBPJ sc-epqpcT cprtih mb-0">Reserve Near</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-12 col-md-6 p-0">
-                                            <div class="statts text-center">
-                                                <p class="sc-fqkvVR cTsBPJ sc-knuQbY fUACrS mb-0">
-                                                    4h - 20m - 24s
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 p-0">
-                                            <div class="price_div">
-                                                $30,410
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- cart -->
-                    <div class="col-6 col-md-4 p-0 px-1">
-                        <div class="wrape_products_al">
-                            <div class="producte_col_one">
-                                <div class="product_snap_image">
-                                    <img class="pro_Duct_im" src="assets/images/cart3.webp" alt="">
-                                    <div class="statuse_chek_cars">
-                                        <div class="statusP_par_car">
-                                            <p style="font-size: 12px;" class="mb-0">Sold!</p>
-                                        </div>
-                                    </div>
-                                    <div class="hert_like">
-                                        <label class="ui-like">
-                                            <input type="checkbox">
-                                            <div class="like">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="">
-                                                    <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
-                                                    <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
-                                                    <g id="SVGRepo_iconCarrier">
-                                                        <path d="M20.808,11.079C19.829,16.132,12,20.5,12,20.5s-7.829-4.368-8.808-9.421C2.227,6.1,5.066,3.5,8,3.5a4.444,4.444,0,0,1,4,2,4.444,4.444,0,0,1,4-2C18.934,3.5,21.773,6.1,20.808,11.079Z"></path>
-                                                    </g>
-                                                </svg>
-                                               </div>
-                                          </label>
-                                    </div>
-                                </div>
-                                <div class="con_tent_product">
-                                    <h5 class="text-start">2017 Honda CR-V 2WD VTi-S RW CVT Wagon</h5>
-                                </div>
-                                <div class="container-fluid">
-                                    <div class="row" style="gap: 3px 0px;">
-                                        <div class="col-sm-12 col-md-6">
-                                            <div class="statts">
-                                                <div class="sc-BQMaI krSomn">
-                                                    <svg style="fill: rgb(202, 17, 60);" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" width="21" class="sc-kUdmhA kuoizl"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 14A6 6 0 108 2a6 6 0 000 12zm2.005-3.423l.572-.572a.304.304 0 000-.43L9.003 8l1.574-1.575a.304.304 0 000-.43l-.572-.572a.304.304 0 00-.43 0L8 6.997 6.425 5.423a.304.304 0 00-.43 0l-.572.572a.304.304 0 000 .43L6.997 8 5.423 9.575a.304.304 0 000 .43l.572.572a.304.304 0 00.43 0L8 9.003l1.575 1.574a.304.304 0 00.43 0z"></path></svg>
-                                                    <p class="sc-fqkvVR cTsBPJ sc-epqpcT cprtih mb-0">Reserve Not Met</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-12 col-md-6 p-0">
-                                            <div class="statts text-center">
-                                                <p class="sc-fqkvVR cTsBPJ sc-knuQbY fUACrS mb-0">
-                                                    4h - 20m - 24s
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 p-0">
-                                            <div class="price_div">
-                                                $12,110
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- cart -->
-                    <div class="col-6 col-md-4 p-0 px-1">
-                        <div class="wrape_products_al">
-                            <div class="producte_col_one">
-                                <div class="product_snap_image">
-                                    <img class="pro_Duct_im" src="assets/images/42037925.webp" alt="">
-                                    <div class="statuse_chek_cars">
-                                        <div class="statusP_par_car">
-                                            <p class="mb-0">PendinG</p>
-                                        </div>
-                                    </div>
-                                    <div class="hert_like">
-                                        <label class="ui-like">
-                                            <input type="checkbox">
-                                            <div class="like">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="">
-                                                    <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
-                                                    <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
-                                                    <g id="SVGRepo_iconCarrier">
-                                                        <path d="M20.808,11.079C19.829,16.132,12,20.5,12,20.5s-7.829-4.368-8.808-9.421C2.227,6.1,5.066,3.5,8,3.5a4.444,4.444,0,0,1,4,2,4.444,4.444,0,0,1,4-2C18.934,3.5,21.773,6.1,20.808,11.079Z"></path>
-                                                    </g>
-                                                </svg>
-                                               </div>
-                                          </label>
-                                    </div>
-                                </div>
-                                <div class="con_tent_product">
-                                    <h5 class="text-start">2014 Toyota Camry Hybrid H AVV50R CVT Sedan</h5>
-                                </div>
-                                <div class="container-fluid">
-                                    <div class="row" style="gap: 3px 0px;">
-                                        <div class="col-sm-12 col-md-6">
-                                            <div class="statts">
-                                                <div class="sc-BQMaI krSomn"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" width="18" class="sc-bvgPty fuDwzT"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 14A6 6 0 108 2a6 6 0 000 12zm-1.241-2.823L4.242 8.66a.387.387 0 010-.548l.548-.547a.387.387 0 01.547 0L7.032 9.26l3.63-3.63a.387.387 0 01.548 0l.548.547a.387.387 0 010 .547l-4.452 4.452a.387.387 0 01-.547 0z"></path></svg>
-                                                    <p class="sc-fqkvVR cTsBPJ sc-epqpcT cprtih mb-0">No Reserve</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-12 col-md-6 p-0">
-                                            <div class="statts text-center">
-                                                <p class="sc-fqkvVR cTsBPJ sc-knuQbY fUACrS mb-0">
-                                                    1h - 46m - 24s
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 p-0">
-                                            <div class="price_div">
-                                                $23,400
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- cart -->
-                    <div class="col-6 col-md-4 p-0 px-1">
-                        <div class="wrape_products_al">
-                            <div class="producte_col_one">
-                                <div class="product_snap_image">
-                                    <img class="pro_Duct_im" src="assets/images/car2.webp" alt="">
-                                    <div class="statuse_chek_cars">
-                                        <div class="statusP_par_car">
-                                            <p style="font-size: 12px;" class="mb-0">Going Gone!</p>
-                                        </div>
-                                    </div>
-                                    <div class="hert_like">
-                                        <label class="ui-like">
-                                            <input type="checkbox">
-                                            <div class="like">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="">
-                                                    <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
-                                                    <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
-                                                    <g id="SVGRepo_iconCarrier">
-                                                        <path d="M20.808,11.079C19.829,16.132,12,20.5,12,20.5s-7.829-4.368-8.808-9.421C2.227,6.1,5.066,3.5,8,3.5a4.444,4.444,0,0,1,4,2,4.444,4.444,0,0,1,4-2C18.934,3.5,21.773,6.1,20.808,11.079Z"></path>
-                                                    </g>
-                                                </svg>
-                                               </div>
-                                          </label>
-                                    </div>
-                                </div>
-                                <div class="con_tent_product">
-                                    <h5 class="text-start">2009 Mercedes Benz C63 AMG W204 Automatic Sedan</h5>
-                                </div>
-                                <div class="container-fluid">
-                                    <div class="row" style="gap: 3px 0px;">
-                                        <div class="col-sm-12 col-md-6">
-                                            <div class="statts">
-                                                <div class="sc-BQMaI krSomn">
-                                                    <!-- <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" width="18" class="sc-bvgPty fuDwzT">
-                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8 14A6 6 0 108 2a6 6 0 000 12zm-1.241-2.823L4.242 8.66a.387.387 0 010-.548l.548-.547a.387.387 0 01.547 0L7.032 9.26l3.63-3.63a.387.387 0 01.548 0l.548.547a.387.387 0 010 .547l-4.452 4.452a.387.387 0 01-.547 0z"></path>
-                                                    </svg> -->
-                                                    <svg style="fill: rgb(239, 112, 5);" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="21" class="sc-cyRcrZ fozazD"><path fill-rule="evenodd" d="M14 8c0 3.315-2.685 6-6 6s-6-2.685-6-6 2.685-6 6-6 6 2.685 6 6zm-8.61.58c.044.066.22.094.277.085h4.666c.056.01.233-.019.276-.085a.353.353 0 00.056-.226v-.708a.353.353 0 00-.056-.226c-.043-.066-.22-.094-.276-.085H5.667c-.056-.01-.233.019-.276.085a.352.352 0 00-.056.226v.708a.352.352 0 00.056.226z" clip-rule="evenodd"></path></svg>
-                                                    <p class="sc-fqkvVR cTsBPJ sc-epqpcT cprtih mb-0">Reserve Near</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-12 col-md-6 p-0">
-                                            <div class="statts text-center">
-                                                <p class="sc-fqkvVR cTsBPJ sc-knuQbY fUACrS mb-0">
-                                                    4h - 20m - 24s
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 p-0">
-                                            <div class="price_div">
-                                                $30,410
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- cart -->
-                    <div class="col-6 col-md-4 p-0 px-1">
-                        <div class="wrape_products_al">
-                            <div class="producte_col_one">
-                                <div class="product_snap_image">
-                                    <img class="pro_Duct_im" src="assets/images/cart3.webp" alt="">
-                                    <div class="statuse_chek_cars">
-                                        <div class="statusP_par_car">
-                                            <p style="font-size: 12px;" class="mb-0">Sold!</p>
-                                        </div>
-                                    </div>
-                                    <div class="hert_like">
-                                        <label class="ui-like">
-                                            <input type="checkbox">
-                                            <div class="like">
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="">
-                                                    <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
-                                                    <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
-                                                    <g id="SVGRepo_iconCarrier">
-                                                        <path d="M20.808,11.079C19.829,16.132,12,20.5,12,20.5s-7.829-4.368-8.808-9.421C2.227,6.1,5.066,3.5,8,3.5a4.444,4.444,0,0,1,4,2,4.444,4.444,0,0,1,4-2C18.934,3.5,21.773,6.1,20.808,11.079Z"></path>
-                                                    </g>
-                                                </svg>
-                                               </div>
-                                          </label>
-                                    </div>
-                                </div>
-                                <div class="con_tent_product">
-                                    <h5 class="text-start">2017 Honda CR-V 2WD VTi-S RW CVT Wagon</h5>
-                                </div>
-                                <div class="container-fluid">
-                                    <div class="row" style="gap: 3px 0px;">
-                                        <div class="col-sm-12 col-md-6">
-                                            <div class="statts">
-                                                <div class="sc-BQMaI krSomn">
-                                                    <svg style="fill: rgb(202, 17, 60);" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" width="21" class="sc-kUdmhA kuoizl"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 14A6 6 0 108 2a6 6 0 000 12zm2.005-3.423l.572-.572a.304.304 0 000-.43L9.003 8l1.574-1.575a.304.304 0 000-.43l-.572-.572a.304.304 0 00-.43 0L8 6.997 6.425 5.423a.304.304 0 00-.43 0l-.572.572a.304.304 0 000 .43L6.997 8 5.423 9.575a.304.304 0 000 .43l.572.572a.304.304 0 00.43 0L8 9.003l1.575 1.574a.304.304 0 00.43 0z"></path></svg>
-                                                    <p class="sc-fqkvVR cTsBPJ sc-epqpcT cprtih mb-0">Reserve Not Met</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-12 col-md-6 p-0">
-                                            <div class="statts text-center">
-                                                <p class="sc-fqkvVR cTsBPJ sc-knuQbY fUACrS mb-0">
-                                                    4h - 20m - 24s
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 p-0">
-                                            <div class="price_div">
-                                                $12,110
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
                 </div>
-            </div>
 
+            </div>
+            <div class="tab-pane fade " id="pills-main2 " role="tabpanel " aria-labelledby="pills-profile-tab " tabindex="0 ">...</div>
+            <div class="tab-pane fade " id="pills-main3 " role="tabpanel " aria-labelledby="pills-contact-tab " tabindex="0 ">...</div>
+            <div class="tab-pane fade " id="pills-main4 " role="tabpanel " aria-labelledby="pills-contact-tab " tabindex="0 ">...</div>
         </div>
-        <div class="tab-pane fade" id="pills-main2" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">...</div>
-        <div class="tab-pane fade" id="pills-main3" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">...</div>
-        <div class="tab-pane fade" id="pills-main4" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">...</div>
     </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/flipdown@0.3.2/dist/flipdown.min.js"></script>
-    <script src="assets/js/script.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js "></script>
+    <script type="module " src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js "></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/flipdown@0.3.2/dist/flipdown.min.js "></script>
+    <script src="assets/js/script.js "></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js "></script>
     <script>
         AOS.init();
     </script>
 
     <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js "></script>
     <script>
-        var swiper = new Swiper(".mySwiper", {
+        var swiper = new Swiper(".mySwiper ", {
             pagination: {
-                el: ".swiper-pagination",
+                el: ".swiper-pagination ",
                 dynamicBullets: true,
             },
         });

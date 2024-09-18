@@ -475,7 +475,7 @@ div#forms-start img {
     clip-path: polygon(0 0, 0 0, 100% 0, 100% 0, 100% calc(100% - 15px), calc(100% - 15px) 100%, 15px 100%, 0 100%);
     height: 40px;
     font-size: 0.9rem;
-    line-height: 14px;
+    /* line-height: 14px; */
     letter-spacing: 1.2px;
     transition: .2s .1s;
     background-image: linear-gradient(90deg, rgb(223, 88, 48), rgb(223, 88, 48));
@@ -662,7 +662,7 @@ div#main_page_one {
     top: 50%;
     left: 50%;
     translate: -50% -50%;
-    height: 0vh;
+    height: 100vh;
     width: 100%;
     transition: height 1.6s;
     overflow: hidden;
@@ -1077,6 +1077,8 @@ h2.title_slides {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    padding-bottom: 1.5rem;
 }
 
 .product_snap_image {
@@ -1105,8 +1107,8 @@ h2.title_slides {
     content: '';
     position: absolute;
     width: 150%;
-    height: 17px;
-    background-image: linear-gradient(45deg, #ff6547 0%, #ffb144 51%, #ff7053 100%);
+    height: 18px;
+    background-image: linear-gradient(45deg, rgb(223, 88, 48) 0%, rgb(223, 88, 48) 51%, rgb(223, 88, 48) 100%);
     transform: rotate(-45deg) translateY(-20px);
     display: flex;
     align-items: center;
@@ -1198,7 +1200,8 @@ p.sc-fqkvVR.cTsBPJ.sc-knuQbY.fUACrS.mb-0 {
     text-align: start;
     padding: 0.4rem 1rem;
     font-family: "Titillium Web", sans-serif;
-    color: rgb(223, 88, 48);
+    color: rgb(202, 17, 60);
+    /* color: rgb(223, 88, 48); */
     font-weight: 600;
 }
 
@@ -1408,6 +1411,109 @@ p.sc-fqkvVR.cTsBPJ.sc-knuQbY.fUACrS.mb-0 {
         transform: scale(0.8);
         opacity: 0;
     }
+}
+
+.placebit {
+    border-radius: .25rem;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #fff;
+    -webkit-clip-path: polygon(0 0, 0 0, 100% 0, 100% 0, 100% calc(100% - 15px), calc(100% - 15px) 100%, 15px 100%, 0 100%);
+    clip-path: polygon(0 0, 0 0, 100% 0, 100% 0, 100% calc(100% - 15px), calc(100% - 15px) 100%, 15px 100%, 0 100%);
+    height: 40px;
+    font-size: 0.9rem;
+    line-height: 14px;
+    letter-spacing: 1.2px;
+    transition: .2s .1s;
+    background-image: linear-gradient(90deg, rgb(223, 88, 48), rgb(223, 88, 48));
+    border: 0 solid;
+    overflow: hidden;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 12px;
+    font-family: "Titillium Web", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+}
+
+.placebit:hover {
+    cursor: pointer;
+    transition: all .3s ease-in;
+    width: 90%;
+}
+
+.placebit i {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    translate: 0% -50%;
+    font-size: 17px;
+}
+
+.placebit i {
+    position: absolute;
+}
+
+.uyghggfgf {
+    position: absolute;
+    width: 100%;
+    bottom: -19px;
+}
+
+.nav_pils_second {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 34px;
+    flex-direction: row;
+}
+
+.nav_pils_second .nav-link.active::before {
+    position: absolute;
+    content: '';
+    height: 0;
+    width: 0;
+    top: 0;
+    left: 0;
+    background: linear-gradient(135deg, rgba(33, 33, 33, 1) 0%, rgba(33, 33, 33, 1) 50%, rgb(223, 88, 48) 50%, rgba(191, 4, 38, 1) 60%);
+    border-radius: 0 0 0.5em 0;
+    box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+.nav_pils_second .nav-link.active {
+    position: relative;
+    background-color: rgb(223, 88, 48) !important;
+}
+
+.nav_pils_second .nav-link.active::before {
+    width: 1.6em;
+    height: 1.6em;
+}
+
+.button_tabsalll {
+    position: relative;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0.4em 1.8em;
+    background-color: rgb(223, 88, 48) !important;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.5em;
+    color: #DEDEDE;
+    box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
+    font-family: "Titillium Web", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 700px) {
