@@ -661,7 +661,7 @@ div#main_page_one {
     top: 50%;
     left: 50%;
     translate: -50% -50%;
-    height: 100vh;
+    height: 0vh;
     width: 100%;
     transition: height 1.6s;
     overflow: hidden;
