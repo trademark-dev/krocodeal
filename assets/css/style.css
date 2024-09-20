@@ -1542,14 +1542,14 @@ p.sc-fqkvVR.cTsBPJ.sc-knuQbY.fUACrS.mb-0 {
     margin-right: 10px;
 }
 
-.countdown {
+
+/* .countdown {
     display: flex;
     align-items: center;
     font-size: 22px;
     color: #fff;
     font-weight: 300;
-    /* min-width: 175px; */
-}
+} */
 
 .countdown .count-down-block {
     margin-right: 3px;
@@ -1697,6 +1697,20 @@ i#bidding_hhmmer {
     font-size: 14px;
     top: 50%;
     translate: -50% -50%;
+}
+
+button.btn.close_button_off_one.shadow-none {
+    position: absolute;
+    top: 8px;
+    right: 9px;
+}
+
+.btn-check:checked+.btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+ :not(.btn-check)+.btn:active {
+    border-color: none !important;
 }
 
 @media (max-width: 700px) {

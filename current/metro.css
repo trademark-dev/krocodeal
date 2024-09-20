@@ -1,0 +1,116 @@
+.countdown {
+    font-size: 1.5rem;
+    width: 100%
+}
+
+.countdown,
+.countdown .part {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: center;
+    display: -webkit-box;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    position: relative
+}
+
+.countdown .part {
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding: .5rem .5rem .5em
+}
+
+.countdown .digit {
+    display: block;
+    line-height: 1;
+    overflow: hidden;
+    padding: 0;
+    position: relative
+}
+
+.countdown .digit .digit-placeholder {
+    visibility: hidden
+}
+
+.countdown .digit .digit-value {
+    display: block;
+    font: inherit;
+    left: 0;
+    position: absolute;
+    top: 0
+}
+
+.countdown .part+.part:before {
+    background: radial-gradient(at left, var(--border-color), transparent);
+    content: "";
+    display: block;
+    height: calc(100% - 8px);
+    left: 0;
+    position: absolute;
+    top: 10px;
+    width: 1px
+}
+
+.countdown .part.d-none+.part:before,
+.countdown .part.no-divider:before {
+    display: none
+}
+
+.countdown .part.days:after,
+.countdown .part.hours:after,
+.countdown .part.minutes:after,
+.countdown .part.seconds:after {
+    background-color: inherit;
+    bottom: 0;
+    color: inherit;
+    content: attr(data-label);
+    font-size: .3em;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 1
+}
+
+.countdown .days {
+    -webkit-box-ordinal-group: 2;
+    order: 1
+}
+
+.countdown .hours {
+    -webkit-box-ordinal-group: 3;
+    order: 2
+}
+
+.countdown .minutes {
+    -webkit-box-ordinal-group: 4;
+    order: 3
+}
+
+.countdown .seconds {
+    -webkit-box-ordinal-group: 5;
+    order: 4
+}
+
+.countdown .days,
+.countdown .hours,
+.countdown .minutes {
+    display: none;
+}
+
+.counter-inner_one {
+    border: 1px solid rgba(255, 255, 255, 0.253);
+    background-color: rgba(255, 255, 255, 0.253);
+    margin-bottom: 15px !important;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: -16px;
+    backdrop-filter: blur(10px);
+    text-shadow: 3px 1px 10px black;
+    box-sizing: 0px 0px 10px black !important;
+    font-family: "Titillium Web", sans-serif;
+}
