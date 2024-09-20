@@ -1205,6 +1205,7 @@ p.sc-fqkvVR.cTsBPJ.sc-knuQbY.fUACrS.mb-0 {
     margin-top: 4px;
     font-size: 22px;
     text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.589);
+    position: relative;
 }
 
 .statusP_par_car {
@@ -1651,6 +1652,51 @@ p.sc-fqkvVR.cTsBPJ.sc-knuQbY.fUACrS.mb-0 {
     align-items: center;
     text-shadow: -1px -1px 10px black;
     box-shadow: 2px 0px 4px black;
+}
+
+.input_bisdding {
+    width: 100%;
+    padding: 0 0.5rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    font-size: 12px;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    text-decoration: none;
+}
+
+input.input_bisdding::placeholder {
+    color: white;
+    opacity: 0.8;
+    font-size: 12px;
+    text-shadow: 0px 0px 10px black;
+}
+
+#inpu_for_box {
+    border: 1px solid rgba(255, 255, 255, 0.534);
+    width: 83%;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px !important;
+    margin-top: -8px !important;
+    margin-bottom: 10px;
+    background-color: rgba(223, 89, 48, 0.301);
+    backdrop-filter: blur(7px);
+    box-shadow: inset 0px 0px 4px black;
+}
+
+i#bidding_hhmmer {
+    position: absolute;
+    right: 0;
+    color: white;
+    font-size: 14px;
+    top: 50%;
+    translate: -50% -50%;
 }
 
 @media (max-width: 700px) {
