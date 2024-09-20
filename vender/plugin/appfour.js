@@ -21,7 +21,7 @@
                         '';
                     // Minutes Section
                     var minutesHtml = (totalSeconds > 59) ?
-                        '<div class="count-down-block"><span>%M</span><div class="inner_rtyth"> M</div></div>' :
+                        '<div class="count-down-block"><span>%M</span><div class="inner_rtyth">M</div></div>' :
                         '';
                     // Seconds Section (Always Shown)
                     var secondsHtml = '<div class="count-down-block"><span>%S</span> <div class="inner_rtyth">S</div></div>';
@@ -30,7 +30,8 @@
                         event.strftime(daysHtml + hoursHtml + minutesHtml + secondsHtml)
                     );
                 }).on('finish.countdown', function(event) {
-                    $(this).html(event.strftime(''));
+                    // Displaying a message when the countdown ends
+                    $(this).html('<div class="time-up-message" style="color: red; font-size: 16px; text-shadow:1px 1px 4px black;">Time\'s Up!</div>');
                 });
             });
         }
